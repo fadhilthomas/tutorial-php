@@ -2,9 +2,9 @@
 
 ## Aturan Penulisan Variabel dalam PHP
 
-**1. Penulisan variabel harus diawali dengan tanda $**
+**1. Variabel harus diawali dengan tanda $**
 
-Variabel di dalam PHP harus diawali dengan dollar sign atau tanda dollar ($).
+Variabel di dalam PHP harus diawali dengan tanda dollar ($).
 
 Contoh penulisan variabel yang **benar** dalam PHP:
 ```php
@@ -16,7 +16,7 @@ Contoh penulisan variabel yang **benar** dalam PHP:
    $ANGKA_MAKSIMUM;
 ?>
 ```
-Dan berikut adalah contoh penulisan variabel yang **salah**:
+Contoh penulisan variabel yang **salah**:
 
 ```php
 <?php
@@ -96,7 +96,7 @@ Output
 9
 ```
 \
-Contoh lain (2):
+Contoh lain (3):
 ```php
 <?php
    $a = 'Mas';
@@ -108,4 +108,17 @@ Output
 ```
 Mas & Ayli
 ```
-
+\
+Contoh lain (4):
+```php
+<?php
+   $a = 'Hello';
+   $b = 'Hallo';
+   echo $a . "</br>" . $b;
+?>
+```
+Output
+```
+Hello
+Halo
+```
