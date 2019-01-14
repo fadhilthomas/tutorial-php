@@ -38,3 +38,48 @@ PHP membedakan variabel yang ditulis dengan huruf besar dan kecil , sehingga **$
 ?>
 Dalam contoh diatas, PHP mengeluarkan error karena tidak menemukan variabel $Ayli.
 ```
+
+## Cara Menampilkan Nilai Variabel (print, echo)
+
+Untuk menampilkan nilai atau isi dari variabel, tinggal menampilkannya dengan perintah **echo** atau **print**, seperti berikut ini:
+
+```php
+<?php
+   $a = 'Aku sayang';
+   $b = 'Lia';
+    
+   echo $a . $b;
+?>
+```
+Hasil yang didapat adalah:
+```
+Aku SayangLia
+```
+
+Kenapa kata Sayang dan Lia menyatu, karena ~~Sayang dan Lia tak mau berpisah~~ dalam variable $a dan $b, tidak memiliki spasi. Jadi agar hasil outputnya terdapat spasi maka perlu ditambahkan spasi, seperti berikut:
+```php
+<?php
+   $a = 'Aku sayang';
+   $b = 'Lia';
+
+   echo $a . " " . $b;
+?>
+```
+Hasil yang didapat adalah:
+```
+Aku Sayang Lia
+```
+
+Contoh lain:
+```php
+<?php
+   $b = 'Lia';
+   $a = 'Aku sayang $a';
+   echo $a;
+?>
+```
+
+Output
+```
+Aku Sayang Lia
+```
