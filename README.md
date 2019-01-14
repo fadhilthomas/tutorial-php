@@ -37,7 +37,8 @@ PHP membedakan variabel yang ditulis dengan huruf besar dan kecil , sehingga **$
 ?>
 Dalam contoh diatas, PHP mengeluarkan error karena tidak menemukan variabel $Ayli.
 ```
-\
+
+
 ## Cara Menampilkan Nilai Variabel (print, echo)
 
 Untuk menampilkan nilai atau isi dari variabel, tinggal menampilkannya dengan perintah **echo** atau **print**, seperti berikut ini:
