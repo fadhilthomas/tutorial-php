@@ -70,7 +70,7 @@ Hasil yang didapat adalah:
 Aku Sayang Lia
 ```
 \
-Contoh lain:
+Contoh lain (1):
 ```php
 <?php
    $b = 'Lia';
@@ -78,8 +78,34 @@ Contoh lain:
    echo $a;
 ?>
 ```
-
 Output
 ```
 Aku Sayang Lia
 ```
+\
+Contoh lain (2):
+```php
+<?php
+   $x = 5;
+   $y = 4;
+   echo $x + $y;
+?>
+```
+Output
+```
+9
+```
+\
+Contoh lain (2):
+```php
+<?php
+   $a = 'Mas';
+   $b = 'Ayli';
+   echo $a . " & " . $b;
+?>
+```
+Output
+```
+Mas & Ayli
+```
+
