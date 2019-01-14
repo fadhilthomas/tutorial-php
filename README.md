@@ -26,7 +26,9 @@ Dan berikut adalah contoh penulisan variabel yang **salah**:
 ?>
 ```
 
+
 **2. Variabel dalam PHP bersifat case sensitif**
+
 PHP membedakan variabel yang ditulis dengan huruf besar dan kecil , sehingga **$belajar** tidak sama dengan **$Belajar** ataupun **$BELAJAR**, ketiganya akan dianggap sebagai variabel yang berbeda.
 
 ```php
