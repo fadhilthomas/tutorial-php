@@ -74,7 +74,7 @@ Contoh lain (1):
 ```php
 <?php
    $b = 'Lia';
-   $a = 'Aku sayang $a';
+   $a = 'Aku sayang $b';
    echo $a;
 ?>
 ```
