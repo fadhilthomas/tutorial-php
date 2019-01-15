@@ -1,4 +1,4 @@
-# Latihan1
+# Latihan 1 Cek Nilai
 
 ## Latihan Form Handling
 
