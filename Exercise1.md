@@ -67,9 +67,8 @@ Kedua buat file cek_grade.php
 <br>
 <br>
 ## Penjelasan
-<br>
 * Fungsi $_POST["nilai"] adalah untuk menerima data dari 'nilai' yang menggunakan meteode POST. Jadi apabila metodenya menggunakan get maka pakai $_GET["nilai"]. Kemudian fungsi isset adalah untuk memeriksa apakah data 'nilai' ada nilanya atau tidak. Jadi apabila (if) 'nilai' tidak kosong, maka kode di dalam if akan dieksekusi.
 * Kemudian dalan if($nilai >= 80 && $nilai <= 100). Jika isi dari variable $nilai 80 sampai 100 maka akan mencetak tulisan "Grade anda 'A'" dengan echo.
 * Apabila if yang di atas tidak terpenuhi maka, akan memeriksa kondisi dibawahnya dengan menambahkan syntax 'else if'. Jika isi dari variable $nilai 70 sampai 79 maka akan mencetak tulisan "Grade anda 'B'" dan seterusnya sampai if terakhir di bawah.
-<br>
+
 Kemudian lakukan ujicoba.
